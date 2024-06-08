@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ilmu Komputers on Terajari</title>
+    <link>//localhost:1313/ilmu-komputers/</link>
+    <description>Recent content in Ilmu Komputers on Terajari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <copyright>&amp;copy; terajari.live</copyright>
+    <atom:link href="//localhost:1313/ilmu-komputers/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
