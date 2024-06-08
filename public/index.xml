@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Selamat Datang di Terajari! on </title>
-    <link>http://localhost:1313/</link>
+    <link>https://www.terajari.live/</link>
     <description>Recent content in Selamat Datang di Terajari! on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id</language>
     <copyright>&amp;copy; terajari.live</copyright>
-    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.terajari.live/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pemecahan Masalah Ala Pólya</title>
-      <link>http://localhost:1313/pemrograman/polya/</link>
+      <link>https://www.terajari.live/pemrograman/polya/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pemrograman/polya/</guid>
+      <guid>https://www.terajari.live/pemrograman/polya/</guid>
       <description>G.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pemrograman/polya/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.terajari.live/pemrograman/polya/featured.jpg" />
     </item>
     
     <item>
       <title>Sebuah Negeri Bernama Logika</title>
-      <link>http://localhost:1313/pemrograman/logika/</link>
+      <link>https://www.terajari.live/pemrograman/logika/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pemrograman/logika/</guid>
+      <guid>https://www.terajari.live/pemrograman/logika/</guid>
       <description>Teka-teki # Setelah AI berkembang pesat di tahun 2050, seluruh dunia memiliki ketergantungan berlebih pada robot.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pemrograman/logika/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.terajari.live/pemrograman/logika/featured.png" />
     </item>
     
   </channel>
