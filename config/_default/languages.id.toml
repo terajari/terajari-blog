@@ -1,22 +1,22 @@
 languageCode = "id"
 languageName = "Indonesia"
 weight = 1
-title = "Terajari"
+#title = "Terajari"
 
 [params]
   displayName = "ID"
   isoCode = "id"
   rtl = false
   dateFormat = "2 January 2006"
-  #logo = "img/log-hd.png"
-  # secondaryLogo = "img/secondary-logo.png"
+  logo = "img/terajari-white.png"
+  secondaryLogo = "img/terajari-black.png"
   description = "Blog tempat belajar"
   copyright = "&copy; terajari.live"
 
 [author]
   name = "Terajari"
   image = "img/biduan.jpg"
-  headline = "Hari ini baru terajari"
+  # headline = "Hari ini baru terajari"
   bio = "Pencari sisa-sisa ilmu di internet"
   links = [
 #     { email = "mailto:hello@your_domain.com" },
