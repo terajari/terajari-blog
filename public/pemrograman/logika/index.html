@@ -894,6 +894,42 @@
 
 
     
+    
+    <div class="pt-3">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="pt-3">
+        
+<script>
+  let giscusTheme = document.documentElement.classList.contains("dark") ? "dark_dimmed" : "light"
+  let giscusAttributes = {
+    "src": "https://giscus.app/client.js",
+    "data-repo": "terajari\/terajari-blog",
+    "data-repo-id": "R_kgDOMGmZ0g",
+    "data-category": "General",
+    "data-category-id": "DIC_kwDOMGmZ0s4Cf8wJ",
+    "data-mapping": "og:title",
+    "data-reactions-enabled": "1",
+    "data-strict": "1",
+    "data-emit-metadata": "0",
+    "data-input-position": "top",
+    "data-theme": giscusTheme,
+    "data-lang": "en",
+    "data-loading": "lazy",
+    "crossorigin": "anonymous",
+    "async": "",
+  };
+
+  let giscusScript = document.createElement("script");
+  Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+  document.body.appendChild(giscusScript);
+</script>
+
+<div class="giscus"></div>
+
+      </div>
+    </div>
+    
+    
   </footer>
 </article>
 

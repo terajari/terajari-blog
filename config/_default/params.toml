@@ -25,6 +25,15 @@ disableTextInHeader = false
 # smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
+[comments]
+  repo = "terajari/terajari-blog"
+  repoId = "R_kgDOMGmZ0g"
+  category = "General"
+  categoryId = "DIC_kwDOMGmZ0s4Cf8wJ"
+  mapping = "og:title"
+  theme_dark = "dark_dimmed"
+  theme_light = "light"
+
 [header]
   layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
@@ -76,6 +85,7 @@ disableTextInHeader = false
   showWordCount = true
   # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
   showZenMode = false
+  showComments = true
 
 [list]
   showHero = false
