@@ -6,7 +6,6 @@ description: "Pengertian logika"
 tags: ["logika", "umum"]
 series: ["Ilmu Komputer"]
 series_order: 2
-seriesOpened: true
 showReadingTime: true
 ---
 
