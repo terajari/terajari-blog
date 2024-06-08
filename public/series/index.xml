@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on </title>
+    <link>https://terajari.live/series/</link>
+    <description>Recent content in Series on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <copyright>&amp;copy; terajari.live</copyright>
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://terajari.live/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ilmu Komputer</title>
+      <link>https://terajari.live/series/ilmu-komputer/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://terajari.live/series/ilmu-komputer/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

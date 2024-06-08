@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://terajari.live/sitemap.xml
