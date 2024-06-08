@@ -6,6 +6,7 @@ description: "Pemecahan Masalah"
 tags: ["logika", "umum"]
 series: ["Ilmu Komputer"]
 series_order: 1
+seriesOpened: true
 showReadingTime: true
 ---
 ![Polya](featured.jpg)
