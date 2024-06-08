@@ -28,7 +28,7 @@
 [[main]]
  name = "Ilmu Komputer"
  parent = "Series"
- pageRef = "pemrograman"
+ pageRef = "series/ilmu-komputer"
  weight = 20
 
 # [[subnavigation]]

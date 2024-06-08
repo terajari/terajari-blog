@@ -10,22 +10,22 @@
     <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.terajari.live/series/ilmu-komputer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pemecahan Masalah Ala Pólya</title>
-      <link>https://www.terajari.live/pemrograman/polya/</link>
+      <link>https://www.terajari.live/ilmu-komputer/polya/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.terajari.live/pemrograman/polya/</guid>
+      <guid>https://www.terajari.live/ilmu-komputer/polya/</guid>
       <description>G.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.terajari.live/pemrograman/polya/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.terajari.live/ilmu-komputer/polya/featured.jpg" />
     </item>
     
     <item>
       <title>Sebuah Negeri Bernama Logika</title>
-      <link>https://www.terajari.live/pemrograman/logika/</link>
+      <link>https://www.terajari.live/ilmu-komputer/logika/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.terajari.live/pemrograman/logika/</guid>
+      <guid>https://www.terajari.live/ilmu-komputer/logika/</guid>
       <description>Teka-teki # Setelah AI berkembang pesat di tahun 2050, seluruh dunia memiliki ketergantungan berlebih pada robot.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.terajari.live/pemrograman/logika/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.terajari.live/ilmu-komputer/logika/featured.png" />
     </item>
     
   </channel>
