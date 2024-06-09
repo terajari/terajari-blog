@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dsa on </title>
+    <link>http://localhost:1313/series/dsa/</link>
+    <description>Recent content in Dsa on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <copyright>&amp;copy; terajari.live</copyright>
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/dsa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test tab</title>
+      <link>http://localhost:1313/dsa/contoh-tab/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dsa/contoh-tab/</guid>
+      <description>bash code example c code example python code example #!</description>
+      
+    </item>
+    
+  </channel>
+</rss>

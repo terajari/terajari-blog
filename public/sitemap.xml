@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://www.terajari.live/dsa/</loc>
+    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://www.terajari.live/ilmu-komputer/polya/</loc>
     <lastmod>2024-06-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>

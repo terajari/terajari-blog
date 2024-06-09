@@ -31,6 +31,12 @@
  pageRef = "series/ilmu-komputer"
  weight = 20
 
+ [[main]]
+ name = "DSA"
+ parent = "Series"
+ pageRef = "series/dsa"
+ weight = 30
+
 # [[subnavigation]]
 #  name = "An interesting topic"
 #  pageRef = "tags/interesting-topic"
