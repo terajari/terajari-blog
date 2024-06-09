@@ -33,7 +33,7 @@ Ya, jika kondisinya seperti ini:
 - fokus pada sebagian elemen data.
 
 ## Contoh implementasi
-Banyak situasi di dunia nyata menggunakan pola dua petunjuk. Ini beberapa contohnya:
+Banyak situasi di dunia nyata menggunakan pola two pointers. Ini beberapa contohnya:
 
 - **Manajemen Memori:** Dalam alokasi dan dealokasi memori, two pointers penting digunakan. Blok memori yang tersedia diwakili oleh penunjuk awal dan akhir. Ketika memori dialokasikan, penunjuk awal digeser ke depan menunjuk ke blok yang baru dialokasikan. Sebaliknya, saat memori dibebaskan, penunjuk awal digeser ke belakang menandai area yang telah didealokasi sebagai tersedia untuk alokasi di masa mendatang.
 
