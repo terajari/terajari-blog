@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding Interview on </title>
+    <link>https://www.terajari.live/series/coding-interview/</link>
+    <description>Recent content in Coding Interview on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <copyright>&amp;copy; terajari.live</copyright>
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.terajari.live/series/coding-interview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two Pointers</title>
+      <link>https://www.terajari.live/coding-interview/two-pointers-intro/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.terajari.live/coding-interview/two-pointers-intro/</guid>
+      <description>Ikhtisar # Sesuai namanya, teknik Two Pointers menggunakan dua pointer untuk menelusuri array atau daftar sampai kondisi tertentu terpenuhi.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

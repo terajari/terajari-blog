@@ -32,9 +32,9 @@
  weight = 20
 
  [[main]]
- name = "DSA"
+ name = "Coding Interview"
  parent = "Series"
- pageRef = "series/dsa"
+ pageRef = "series/coding-interview"
  weight = 30
 
 # [[subnavigation]]

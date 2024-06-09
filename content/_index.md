@@ -1,6 +1,6 @@
 ---
 title: "Selamat Datang di Terajari!"
-description: "Personal website where I write articles and share my projects"
+description: "Blog untuk menyimpan apa yang sudah saya pelajari"
 ---
 
 {{<typeit tag=h3 speed=30 lifeLike=true >}}Bacalah dengan (menyebut) nama Tuhanmu Yang menciptakan - Al-‘Alaq:1

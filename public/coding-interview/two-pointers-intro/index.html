@@ -8,16 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Dsas &middot; </title>
-  <meta name="title" content="Dsas &middot; " />
+  <title>Two Pointers &middot; </title>
+  <meta name="title" content="Two Pointers &middot; " />
   
-  <meta name="description" content="Blog tempat belajar" />
+  <meta name="description" content="Tentang Two Pinters" />
+  <meta name="keywords" content="struktur data, algoritma, " />
   
   
-  
-  <link rel="canonical" href="https://www.terajari.live/dsa/" />
-  
-  <link rel="alternate" type="application/rss+xml" href="/dsa/index.xml" title="" />
+  <link rel="canonical" href="https://www.terajari.live/coding-interview/two-pointers-intro/" />
   
   
   
@@ -62,19 +60,51 @@
   
   
   
-  <meta property="og:url" content="https://www.terajari.live/dsa/">
-  <meta property="og:title" content="Dsas">
-  <meta property="og:description" content="Blog tempat belajar">
+  <meta property="og:url" content="https://www.terajari.live/coding-interview/two-pointers-intro/">
+  <meta property="og:title" content="Two Pointers">
+  <meta property="og:description" content="Tentang Two Pinters">
   <meta property="og:locale" content="id">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="coding-interview">
+    <meta property="article:published_time" content="2024-06-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-06-08T00:00:00+00:00">
+    <meta property="article:tag" content="Struktur Data">
+    <meta property="article:tag" content="Algoritma">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Dsas">
-  <meta name="twitter:description" content="Blog tempat belajar">
+  <meta name="twitter:title" content="Two Pointers">
+  <meta name="twitter:description" content="Tentang Two Pinters">
 
   
-  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Ilmu Komputer",
+    "name": "Two Pointers",
+    "headline": "Two Pointers",
+    "description": "Tentang Two Pinters",
+    "abstract": "Ikhtisar # Sesuai namanya, teknik Two Pointers menggunakan dua pointer untuk menelusuri array atau daftar sampai kondisi tertentu terpenuhi.",
+    "inLanguage": "id",
+    "url" : "https:\/\/www.terajari.live\/coding-interview\/two-pointers-intro\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Terajari"
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-06-08T00:00:00\u002b00:00",
+    "datePublished": "2024-06-08T00:00:00\u002b00:00",
+    
+    "dateModified": "2024-06-08T00:00:00\u002b00:00",
+    
+    "keywords": ["struktur data","algoritma"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "370"
+  }]
+  </script>
+
 
   
   
@@ -89,6 +119,139 @@
   
 
 <script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/lib/katex/katex.min.af6f85907cdfd6ed3e4906d93a8233d91c5638859f744cd1b98c9b1a3ccaab5f231bdcda49f132f6cdfe8cca86ff33ed468affab8a9a502610a664a34f0f0cfa.css" integrity="sha512-r2&#43;FkHzf1u0&#43;SQbZOoIz2RxWOIWfdEzRuYybGjzKq18jG9zaSfEy9s3&#43;jMqG/zPtRor/q4qaUCYQpmSjTw8M&#43;g==" />
+
+
+<script defer src="/lib/katex/katex.min.20da6cf7343619410c0900fbc626506c65159ea9f312f9729d5cba7aa713707378f9a4222e8f7fb9a42a7240e9749f199b7334401b3e3e4b60e29cf490492552.js" integrity="sha512-INps9zQ2GUEMCQD7xiZQbGUVnqnzEvlynVy6eqcTcHN4&#43;aQiLo9/uaQqckDpdJ8Zm3M0QBs&#43;Pktg4pz0kEklUg=="></script>
+
+
+<script defer src="/lib/katex/auto-render.min.6095714e3aadb63b14ddc4af69346ab12974c1b460654345f8d1860a0b68fcc51b22f68b757433193090bb80afc8965b65cb607e5541d0f5f0f4b2e64d69b9ff.js" integrity="sha512-YJVxTjqttjsU3cSvaTRqsSl0wbRgZUNF&#43;NGGCgto/MUbIvaLdXQzGTCQu4CvyJZbZctgflVB0PXw9LLmTWm5/w=="
+  onload="renderMathInElement(document.body);"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -200,10 +363,10 @@
           </p>
         </a>
         
-        <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        <a href="/series/coding-interview/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
           
           <p class="text-sm font-sm" title="">
-            DSA
+            Coding Interview
           </p>
         </a>
         
@@ -389,10 +552,10 @@
 </li>
 
 <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/series/coding-interview/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-sm font-small" title="">
-            DSA
+            Coding Interview
         </p>
     </a>
 </li>
@@ -433,11 +596,23 @@
       
 
 
- <header>
+<article>
   
-  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Dsas</h1>
-  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+
+  <header id="single_header" class="mt-5 max-w-prose">
     
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Two Pointers
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
 
 
 
@@ -445,7 +620,17 @@
 
 
 
+  
 
+
+
+
+
+  
+
+
+
+  
 
 
 
@@ -462,38 +647,377 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
+  <time datetime="2024-06-08 00:00:00 &#43;0000 UTC">8 Juni 2024</time><span class="px-2 text-primary-500">&middot;</span><span>370 kata</span><span class="px-2 text-primary-500">&middot;</span><span title="Waktu membaca">2 menit</span>
+  
+
+  
+  
 </div>
 
 
-  </div>
+
+
+
+<div class="flex flex-row flex-wrap items-center">
   
   
   
   
-  <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
-  </header>
-  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
-    
-    <div class="min-w-0 min-h-0 max-w-prose">
-      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/struktur-data/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Struktur Data
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/algoritma/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Algoritma
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
     </div>
-   
 
-
-
-  </section>
-  
-  <section class="mt-10 prose dark:prose-invert">
-    <p class="py-8 border-t">
-      <em>Belum ada artikel untuk dicantumkan di sini.</em>
-    </p>
-  </section>
-  
+    
+    
+    
+    
+    
 
     
 
-  
+    
       
+      
+        
+        
+<div class="flex author">
+  
+    
+    
+      
+    
+    
+      
+        
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="Terajari" src="/img/toph-beifong_huc71c3668f833a3f5d25f981a05888c39_629257_192x192_fill_box_center_1.gif" />
+    
+  
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Penulis
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      Terajari
+    </div>
+    
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">Pencari sisa-sisa ilmu di internet</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://github.com/terajari"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+  </div>
+</div>
+
+      
+
+      
+
+      
+      <div class="mb-5"></div>
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Daftar isi
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#ikhtisar">Ikhtisar</a></li>
+    <li><a href="#apakah-masalah-saya-cocok-dengan-strategi-ini">Apakah masalah saya cocok dengan strategi ini?</a></li>
+    <li><a href="#contoh-implementasi">Contoh implementasi</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Daftar isi
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#ikhtisar">Ikhtisar</a></li>
+    <li><a href="#apakah-masalah-saya-cocok-dengan-strategi-ini">Apakah masalah saya cocok dengan strategi ini?</a></li>
+    <li><a href="#contoh-implementasi">Contoh implementasi</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5"  open >
+    
+    <summary
+        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
+        Coding Interview - Artikel ini merupakan bagian dari sebuah seri.
+    </summary>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        Bagian 1: Artikel ini
+    </div>
+    
+    
+
+
+</details>
+
+
+
+        <div class="article-content max-w-prose mb-20">
+          
+
+
+
+<h2 class="relative group">Ikhtisar 
+    <div id="ikhtisar" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#ikhtisar" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Sesuai namanya, teknik <strong>Two Pointers</strong> menggunakan dua pointer untuk menelusuri array atau daftar sampai kondisi tertentu terpenuhi. Ini berguna karena memungkinkan kita untuk melacak dua indeks yang berbeda dalam satu iterasi. Jadi, kalau kamu perlu menemukan dua elemen dalam array yang memenuhi kondisi tertentu, teknik dua pointer ini harus jadi strategi pertama yang kamu pikirkan.</p>
+<p>Pointer bisa digunakan untuk menelusuri struktur data ke satu atau kedua arah, tergantung masalahnya. Misalnya, untuk mengecek apakah sebuah string adalah palindrom, kita bisa pakai satu pointer untuk mulai dari awal string dan satu lagi dari akhir string. Setiap langkah, kita bisa bandingkan nilai kedua pointer dan lihat apakah mereka memenuhi sifat palindrom.</p>
+<p>Pendekatan yang simpel untuk menyelesaikan masalah ini adalah dengan menggunakan nested loop, dengan kompleksitas waktu \( O(n^2) \). Tapi, dengan menggunakan dua pointer yang bergerak ke arah tengah dari kedua ujung, kita bisa memanfaatkan properti simetri dari string palindrom. Ini memungkinkan kita membandingkan elemen-elemen dalam satu iterasi, membuat algoritma lebih efisien dengan kompleksitas waktu \( O(n) \).</p>
+<p>Berikut cara pointer bergerak sepanjang string:</p>
+<pre tabindex="0"><code>&gt; a b c c b a
+  ^         ^
+&gt; a b c c b a
+    ^     ^
+&gt; a b c c b a
+      ^ ^
+</code></pre><p>Jadi, konsep two pointers sebenarnya adalah menerapkan strategi potongan dan pencarian. Tiap langkahnya, kita bisa dengan aman memangkas—artinya, menghilangkan—beberapa opsi solusi.</p>
+
+
+<h2 class="relative group">Apakah masalah saya cocok dengan strategi ini? 
+    <div id="apakah-masalah-saya-cocok-dengan-strategi-ini" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#apakah-masalah-saya-cocok-dengan-strategi-ini" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Ya, jika kondisinya seperti ini:</p>
+<ul>
+<li>datanya linier, seperti array, list, linked-list, atau string</li>
+<li>fokus pada sebagian elemen data.</li>
+</ul>
+
+
+<h2 class="relative group">Contoh implementasi 
+    <div id="contoh-implementasi" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#contoh-implementasi" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Banyak situasi di dunia nyata menggunakan pola dua petunjuk. Ini beberapa contohnya:</p>
+<ul>
+<li>
+<p><strong>Manajemen Memori:</strong> Dalam alokasi dan dealokasi memori, two pointers penting digunakan. Blok memori yang tersedia diwakili oleh penunjuk awal dan akhir. Ketika memori dialokasikan, penunjuk awal digeser ke depan menunjuk ke blok yang baru dialokasikan. Sebaliknya, saat memori dibebaskan, penunjuk awal digeser ke belakang menandai area yang telah didealokasi sebagai tersedia untuk alokasi di masa mendatang.</p>
+</li>
+<li>
+<p><strong>Saran Produk:</strong> Di dunia belanja online, ketika pelanggan melihat keranjang mereka dan total belanja belum mencapai batas untuk pengiriman gratis, kita bisa menyarankan pasangan produk yang jika ditambahkan ke keranjang akan membuat total belanja mencapai syarat untuk pengiriman gratis. two pointers bisa digunakan untuk menyarankan pasangan produk yang dapat memenuhi syarat tersebut.</p>
+</li>
+</ul>
+
+        </div>
+        
+        
+
+        
+<details style="margin-left:0px" class="mt-2 mb-5 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5">
+    
+    <summary
+        class="py-1 text-lg font-semibold cursor-pointer bg-primary-200 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-primary-800 dark:text-neutral-100">
+        Coding Interview - Artikel ini merupakan bagian dari sebuah seri.
+    </summary>
+    
+    
+    
+    <div
+        class="py-1 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+        Bagian 1: Artikel ini
+    </div>
+    
+    
+
+
+</details>
+
+        
+
+          
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_coding-interview\/two-pointers-intro\/index.md"
+        var oid_likes = "likes_coding-interview\/two-pointers-intro\/index.md"
+      </script>
+      
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+
+
+    
+    
+    <div class="pt-3">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="pt-3">
+        
+<script>
+  let giscusTheme = document.documentElement.classList.contains("dark") ? "dark_dimmed" : "light"
+  let giscusAttributes = {
+    "src": "https://giscus.app/client.js",
+    "data-repo": "terajari\/terajari-blog",
+    "data-repo-id": "R_kgDOMGmZ0g",
+    "data-category": "General",
+    "data-category-id": "DIC_kwDOMGmZ0s4Cf8wJ",
+    "data-mapping": "og:title",
+    "data-reactions-enabled": "1",
+    "data-strict": "1",
+    "data-emit-metadata": "0",
+    "data-input-position": "top",
+    "data-theme": giscusTheme,
+    "data-lang": "en",
+    "data-loading": "lazy",
+    "crossorigin": "anonymous",
+    "async": "",
+  };
+
+  let giscusScript = document.createElement("script");
+  Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+  document.body.appendChild(giscusScript);
+</script>
+
+<div class="giscus"></div>
+
+      </div>
+    </div>
+    
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Gulir ke atas" title="Gulir ke atas">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
