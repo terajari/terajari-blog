@@ -4,7 +4,19 @@
 
   <url>
     <loc>https://www.terajari.live/coding-interview/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.terajari.live/</loc>
+    <lastmod>2024-06-09T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.terajari.live/coding-interview/two-pointers-intro/</loc>
+    <lastmod>2024-06-09T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -22,18 +34,6 @@
   </url>
   <url>
     <loc>https://www.terajari.live/ilmu-komputer/logika/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.terajari.live/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.terajari.live/coding-interview/two-pointers-intro/</loc>
     <lastmod>2024-06-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

@@ -1,6 +1,6 @@
 ---
 title: "Two Pointers"
-date: 2024-06-08
+date: 2024-06-09
 draft: false
 description: "Tentang Two Pinters"
 tags: ["struktur data", "algoritma"]
